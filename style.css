@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+body {
+    background-color: blue;
+}
+
+h1 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 2.2em;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 5px;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-right: 20px;
+    margin-bottom: 70px;
+}
+
+.statp {
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lexend Deca';
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 0.8em;
+    letter-spacing: 1px;
+}
+
+img {
+    border-radius: 0px 10px 10px 0px;
+}
+
+strong {
+    color: hsl(277, 64%, 61%);
+}
+
+.container {
+    height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#child {
+    height: 446px;
+    width: 550px;
+}
+
+.txt {
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 10px 0px 0px 10px;
+    padding: 70px;
+}
+
+.stats {
+    display: flex;
+    gap: 40px;
+}
+
+.filter {
+    background-color: white;
+    filter: invert(51%) sepia(44%) saturate(750%) hue-rotate(231deg) brightness(83%) contrast(109%) opacity(50%);
+    height: 446px;
+    width: 540px;
+    position: relative;
+    bottom: 450px;
+    border-radius: 0px 10px 10px 0px;
+}
